@@ -7,7 +7,9 @@
 a{
     color:black; text-decoration : none;
 }
-
+html, body{
+    scroll-behavior: smooth;
+    }
 .logo_1{margin-top : 2%; }
 #header ul{ list-style-type: none; display : flex ;  gap : 3%;}
 #téte{display: flex; flex-direction: column;
@@ -67,6 +69,14 @@ hr {
     margin-top: 12%;
     display:flex;
     margin-bottom: 8%;
+}
+.link1{
+    position: absolute;
+    top: 90%
+}
+.link2{
+    position: absolute;
+    top: 160%
 }
 
 #galeryimg img{
